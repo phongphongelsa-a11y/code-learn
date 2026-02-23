@@ -49,6 +49,9 @@ cout << "KHONG AM" << endl;
 
 Input: 4
 Output: DƯƠNG
+
+
+
 Thứ tự điều kiện
 FIZZ BUZZ
 for (int i = 1; i <= n; i++) {
@@ -61,10 +64,24 @@ for (int i = 1; i <= n; i++) {
         } else {
             cout << i;
         }
-Code ở trên là sai. Vì nếu nhập 15 phải cout ra "Fizz Buzz" theo code ở trên thì sẽ chạy đến if là sẽ bị dưng chương trình và cout ra fizz luôn. Phải đảo điều kiện FizzBuzz lên đầu.
+Code ở trên là sai. Vì nếu nhập 15 hoặc 30 phải cout ra "Fizz Buzz" theo code ở trên thì sẽ chạy đến if là sẽ bị dưng chương trình và cout ra fizz luôn. Phải đảo điều kiện FizzBuzz lên đầu.
 
 if lồng nhau ( khi điều kiện bên ngoài đúng mới vào bên trong để kiểm tra)
+VD: if (n>0){
+        if (n==3){
+        cout << " 3 " << endl;
+        }
+        else {
+        cout << " so duong";
+        }
+ }
+    else {
+    cout << "so am" << endl;
+    }
 
+Input n=3 thì Ouput sẽ là 3
+Input n là 1,2 và các số lớn hơn 3 thi Output sẽ là so duong 
+Input n < 0 thì Output sẽ là so am
 
 
 
