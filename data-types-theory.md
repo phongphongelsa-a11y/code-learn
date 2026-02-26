@@ -1,4 +1,4 @@
-# CÁC KIỂU DỮ LIỆU CƠ BẢN TRONG C++ (DATA TYPES) #
+# DATA TYPES #
 
 
 ##  CÁC KIỂU DỮ LIỆU CƠ BẢN 
