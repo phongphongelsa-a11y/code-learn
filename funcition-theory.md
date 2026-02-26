@@ -85,10 +85,50 @@ cout << "Hello everyone";
 }
 
 ```
+### Truyền tham số, đối số, tham chiếu và tham trị
+```cpp
+- Tham số: là biến trong phần khai báo hàm và tham số chỉ tồn tại bên trong hàm
+VD:
+int Tong(int n){ // int n là tham số
 
+{
 
+- Đối số: là giá trị truyền vào khi gọi hàm
+VD:
+int a=5;
+Tong(a) // a là đối số
 
+- Tham trị: Hàm nhận bản sao của đối số
+VD:
+void tang(int x) {
+    x = x + 1;
+}
 
+int main(){
+int a=5;
+tang(a);
+cout << a;  // a=5
+}
+
+// x gán cho a
+// sau đó sửa x
+// a ko đổi 
+
+- Tham chiếu: Hàm nhận trực tiếp biến gốc
+VD:
+void tang(int &x) {
+    x = x + 1;
+}
+int main(){
+int a = 5;
+tang(a);
+cout << a; // a=6
+}
+// x chính là a
+// sửa x
+// a đổi
+
+    
 
 
 
