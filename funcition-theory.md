@@ -85,7 +85,9 @@ cout << "Hello everyone";
 }
 
 ```
-
+## Truyền tham chiếu và tham trị
+### Truyền tham chiếu
+- là
 
 
 
